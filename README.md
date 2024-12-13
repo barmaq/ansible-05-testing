@@ -23,9 +23,9 @@
 5. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.
 
 результат  
-[verify](.images/4.jpg)  
-[idempotence](.images/5.jpg)  
-[total](.images/6.jpg)  
+![verify](.images/4.jpg)  
+![idempotence](.images/5.jpg)  
+![total](.images/6.jpg)  
 
 [репозиторий](https://github.com/barmaq/ansible-05-testing/).
 
