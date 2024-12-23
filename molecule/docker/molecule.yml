@@ -7,9 +7,9 @@ driver:
 
 platforms:
    - name: ubuntu
-     image: pycontribs/ubuntu:latest
+     image: docker.io/ubuntu/python:3.12-24.04_stable
      pre_build_image: true
-     docker_host: "unix:///var/run/docker.sock"
+  #   docker_host: "unix:///var/run/docker.sock"
   #- name: centos7
   #  image: docker.io/pycontribs/centos:7
   #  pre_build_image: true
