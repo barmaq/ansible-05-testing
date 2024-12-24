@@ -6,7 +6,8 @@ driver:
   name: default  
 
 platforms:
-  - name: localhost  # Используется текущая система
+  - name: localhost
+    connection: local
 
 provisioner:
   name: ansible
