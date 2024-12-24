@@ -13,6 +13,9 @@ provisioner:
   name: ansible
   playbooks:
     converge: converge.yml
+  roles:
+    - src: git+https://github.com/barmaq/ansible-vector-role.git
+      name: vector
 
 verifier:
   name: ansible
