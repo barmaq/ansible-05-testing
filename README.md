@@ -22,4 +22,4 @@
 ## Результат
 
 1.  
-   !(Freestyle Job)[./images/1.png]
+   ![Freestyle Job](./images/1.png)
