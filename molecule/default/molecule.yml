@@ -11,11 +11,11 @@ platforms:
 
 provisioner:
   name: ansible
-  playbooks:
-    converge: converge.yml
-  config_options:
-    ansible_roles_path:
-      - /home/jenkins
+  #playbooks:
+  #  converge: converge.yml
+  roles:
+    - src: git+https://github.com/barmaq/ansible-vector-role.git
+      name:
 
 verifier:
   name: ansible
