@@ -15,7 +15,7 @@ provisioner:
     converge: converge.yml
   config_options:
     ansible_roles_path:
-      - ..
+      - /home/jenkins
 
 verifier:
   name: ansible
