@@ -13,6 +13,9 @@ provisioner:
   name: ansible
   playbooks:
     converge: converge.yml
+  config_options:
+    ansible_roles_path:
+      - ..
 
 verifier:
   name: ansible
