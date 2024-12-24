@@ -14,8 +14,8 @@ provisioner:
   playbooks:
     converge: converge.yml
 
-verifier:
-  name: ansible
+#verifier:
+#  name: ansible
 
   
 # lint: |
